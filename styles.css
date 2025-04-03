@@ -41,6 +41,7 @@ nav ul li {
 }
 
 nav ul li:hover {
+    background: #d9d9f8;
     transform: translateY(-3px);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
@@ -56,7 +57,7 @@ section h2 {
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    aspect-ratio: 1:1;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 
@@ -143,6 +144,7 @@ p{
 }
 
 .project-box:hover {
+    background: rgb(126, 51, 212);
     transform: translateY(-5px);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
@@ -177,6 +179,7 @@ p{
 }
 
 .button-circle:hover {
+    background: rgba(245, 205, 255, 0.2);
     transform: translateY(-3px);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
